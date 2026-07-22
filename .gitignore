@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+/.pnpm-store/
+/.pnp
+.pnp.*
+
+# testing
+/coverage
+
+# framework builds
+/.next/
+/.vinext/
+/dist/
+/out/
+/.wrangler/
+/.vercel/
+/.openai/
+/.agents/
+/.gemini/
+
+# logs
+*.log
+*.err.log
+
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+
+# env
+.env*
